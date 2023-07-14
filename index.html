@@ -25,7 +25,7 @@
 
         <!-- the nexgt element is the one responable of calculating the rotation, position and the distance between user and 
         target place--> 
-        <a-camera gps-new-camera='gpsMinDistance: 1' rotation-reader></a-camera>
+        <a-camera gps-new-camera='gpsMinDistance: 5' rotation-reader></a-camera>
 
 
         <!-- scale: because that model is pretty big ,custom rotation will make the model ‘look’ towards the user.
@@ -35,7 +35,7 @@
 <!-- the next element we use gps-entity-place for bremen and we change the rotation:"x  y  z "--> 
 	    
         <a-entity gltf-model="./assets/magnemite/scene.gltf" rotation="0 180 0" scale="0.1 0.1 0.1" 
-        gps-new-entity-place="longitude: 8.80777; latitude: 53.07516;" animation-mixer/>
+        gps-new-entity-place="longitude: 8.799893; latitude: 53.098742;" animation-mixer/>
 
 
 	</a-scene>

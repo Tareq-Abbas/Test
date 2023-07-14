@@ -25,7 +25,7 @@
 
         <!-- the nexgt element is the one responable of calculating the rotation, position and the distance between user and 
         target place--> 
-        <a-camera gps-camera rotation-reader></a-camera>
+        <a-camera gps-camera="minDistance: 1;" rotation-reader></a-camera>
 
 
         <!-- scale: because that model is pretty big ,custom rotation will make the model ‘look’ towards the user.
